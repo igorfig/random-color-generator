@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     height: 100vh;
@@ -40,13 +39,12 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     margin: 4rem 0 ;
 }
 
 .inputs input{
     height: 50px;
-    width: 200px;
+    width: 240px;
     border: none;
     outline: none;
     margin: -2rem 0 1rem 0;
@@ -56,6 +54,7 @@ main {
 
     background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
+
 
 .buttons button {
     width: 180px;
@@ -78,4 +77,22 @@ main {
 
 .hide {
     display:none;
+}
+
+
+/* arrows ========================= */
+.arrows {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrows .previous, .next {
+    margin-bottom: -6rem;
+    cursor: pointer;
+}
+
+.hide-arrow {
+    visibility: hidden;
+    opacity: 1;
 }
