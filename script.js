@@ -41,9 +41,13 @@ function addColors() {
     if (values.length > 2) {
         values.splice(0, 1)
     }
-    
-    previousArrow.classList.remove('hide-arrow')
-    
+
+    previous = values.slice(-2, -1)
+
+    if (previous.length > 0) {
+        previousArrow.classList.remove('hide-arrow')
+    }
+        
     if(!nextArrow.classList.contains('hide-arrow')){
         nextArrow.classList.add('hide-arrow')
     }
@@ -64,8 +68,6 @@ const Arrows = {
     },
 
     getPreviousValue(){
-        previous = values.slice(-2, -1)
-    
         hex.value = previous
         header.style.backgroundColor = `${previous}`
         button.style.backgroundColor = `${previous}`
