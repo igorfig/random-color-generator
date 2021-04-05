@@ -96,3 +96,20 @@ main {
     visibility: hidden;
     opacity: 1;
 }
+
+
+/* mobile devices ================= */
+
+@media(max-width: 500px) {
+    body {
+        position: fixed;
+    }
+
+    .inputs input {
+        width: 140px;
+    }
+
+    .buttons button {
+        width: 100px;
+    }
+}
