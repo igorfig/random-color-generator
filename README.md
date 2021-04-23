@@ -35,7 +35,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 <br/>
 
 
-<h2 align="center">Icons by <a href="">icons8</a></h2>
+<h2 align="center">Icons by <a href="https://icons8.com.br/">icons8</a></h2>
 
  <img style="border-radius: 50%;" src="https://github.com/igorfig.png" width="100px;" alt=""/>
  <br />
