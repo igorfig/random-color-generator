@@ -15,7 +15,7 @@ const nextArrow = document.querySelector(".next");
 
 let values = [];
 let previous = [];
-let counter;
+let accumulator;
 /* ================== */
 
 function randomColor() {
@@ -33,7 +33,7 @@ function addColors() {
   button.style.backgroundColor = `${hex.value}`;
 
   values.push(hex.value);
-  counter = values.length - 1;
+  accumulator = values.length - 1;
 
   nextArrow.classList.add("hide-arrow");
 
@@ -52,24 +52,24 @@ function addColors() {
 const Arrows = {
   getNextValue() {
     previousArrow.classList.remove("hide-arrow");
-    ++counter;
-    hex.value = values[counter];
+    ++accumulator;
+    hex.value = values[accumulator];
     header.style.backgroundColor = `${hex.value}`;
     button.style.backgroundColor = `${hex.value}`;
 
-    if (counter == values.length - 1) {
+    if (accumulator == values.length - 1) {
       nextArrow.classList.add("hide-arrow");
     }
   },
 
   getPreviousValue() {
-    if (counter > 0) {
-      --counter;
+    if (accumulator > 0) {
+      --accumulator;
     } else {
       previousArrow.classList.add("hide-arrow");
     }
 
-    hex.value = previous[counter];
+    hex.value = previous[accumulator];
     header.style.backgroundColor = `${hex.value}`;
     button.style.backgroundColor = `${hex.value}`;
 
