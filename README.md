@@ -27,6 +27,12 @@ Este projeto tem o objetivo de gerar cores hexadecimais de forma aleatória para
 
 <br />
 
+## ✅ Demonstração da aplicação
+
+Você pode testar a aplicação acessando por esse <a href="https://hexacolors.netlify.app/">link</a>
+
+<br />
+
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
