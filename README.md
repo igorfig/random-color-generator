@@ -2,7 +2,8 @@
 <h1 align="center">Random hexadecimal colors generator 🎨</h1>
 
 <p align="center">
-<img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+    <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+    <img alt="netlify-badge" src="https://api.netlify.com/api/v1/badges/cf9f35cd-a2bb-4132-8fe4-1f6d8f192915/deploy-status" >
 </p>
 
 <br/>
