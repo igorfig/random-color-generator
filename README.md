@@ -14,10 +14,13 @@
 
 <br/>
 
-## 🚀 Tecnologias 
-- JavaScript
-- CSS3
-- HTML5
+<h2 align="center">🚀 Tecnologias utilizadas </h2>
+<p align="center">
+    <img src="./.github/icons/javascript.svg"/>
+    <img src="./.github/icons/html5.svg">
+    <img src="./.github/icons/css3.svg">
+</p>
+
 
 <br />
 
