@@ -15,7 +15,7 @@ header {
     text-align: center;
     height: 180px;
     width: 100%;
-    background: #2d3553;
+    background:  #2763a1;
 }
 
 h1 {
@@ -64,7 +64,7 @@ main {
     cursor: pointer;
     border-radius: 4px;
     margin-right: 8px;
-    background: #2d3553;
+    background: #2763a1;
     color: white;
 }
 
