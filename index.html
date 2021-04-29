@@ -15,23 +15,50 @@
         <h1>Gere cores para o seu site de forma aleatória</h1>
     </header>
     <main>
-        <div class="box">
+        <div class="circle is-animating"></div>
+        <div class="content">
+            
             <div class="arrows">
-                <img src="assets/arrow-left.svg" alt="previous" class="previous hide-arrow">
-                <img src="assets/arrow-right.svg" alt="next" class="next hide-arrow">
+                <img src="assets/back.svg" alt="back" class="back hide-arrow">
+                <img src="assets/forward.svg" alt="forward" class="forward hide-arrow">
+                
             </div>
 
-            <div class="inputs">
-                <input type="text" id="hex" class="hide" readonly>
-                <div class="buttons">
-                    <button class="generate">Gerar</button>
-                    <button class="copy hide">Copiar</button>
-                </div>
+            <div class="outputs">
+                <label>
+                    <input type="text"
+                    id="hex-output"
+                    class="hex"
+                    readonly
+                    value="#000000">
+                    <p>HEX</p>
+                </label>
+                <label>
+                    <input type="text"
+                    id="rgb-output"
+                    class="rgb"
+                    readonly
+                    value="000,000,000">
+                    <p>RGB</p>
+                </label>
+                <label>
+                    <input type="text"
+                    id="hsl-output"
+                    class="hsl"
+                    readonly
+                    value="0,0%,0%">
+                    <p>HSL</p>
+                </label>
+            </div>
+            <div class="buttons">
+                <button class="generate">Gerar</button>
+                <!-- <button class="copy hide">Copiar</button> -->
             </div>
         </div>
     </main>
 
-    <script src="script.js"></script>
+    <script type="module" src="./scripts/index.js"></script>
+    
 </body>
 
 </html>
