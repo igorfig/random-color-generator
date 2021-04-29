@@ -1,5 +1,5 @@
 <br/>
-<h1 align="center">Random hexadecimal colors generator 🎨</h1>
+<h1 align="center">Random colors generator 🎨</h1>
 
 <p align="center">
     <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
@@ -26,7 +26,7 @@
 
 ## 💻 Projeto
 
-Este projeto tem o objetivo de gerar cores hexadecimais de forma aleatória para desenvolvedores e designers que estão buscando ideias de cores para seu layout.
+Este projeto tem o objetivo de gerar cores em hexadecimal, HSL e RGB  de forma aleatória para desenvolvedores e designers que estão buscando ideias de cores para seu layout.
 
 <br />
 
