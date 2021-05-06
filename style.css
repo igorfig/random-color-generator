@@ -72,7 +72,6 @@ main {
     margin-bottom: 6rem;
 }
 
-
 label {
     position: relative;
   }
@@ -125,34 +124,29 @@ label {
 }
 
 /* arrows ========================= */
-.arrows {
-    display: flex;
-    align-items: center;
-    
+
+
+.back {
+    float: left;
+    margin-right: 32px;
 }
 
-.arrows .back{
-    margin-left: -68px; 
+.forward {
+    float: right;
+    margin-left: 32px;
 }
 
-.arrows .back, .forward {
-    opacity: .3;
-    position: absolute;
+
+.back-arrow, .forward-arrow {
     cursor: pointer;
-    margin-top: 3.5rem;
+
+    opacity: .5;
 }
 
-.arrows .back:hover, .forward:hover{
+.back-arrow:hover, .forward-arrow:hover{
     opacity: .7;
-    border-radius: 50%;
     width: 44px;
     height: 44px;
-}
-
-
-
-.arrows .forward {
-    margin-left: 46.4rem;
 }
 
 .hide-arrow {

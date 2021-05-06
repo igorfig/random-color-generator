@@ -18,14 +18,13 @@
         <div class="circle is-animating"></div>
         <div class="content">
             
-            <div class="arrows">
-                <img src="assets/back.svg" alt="back" class="back hide-arrow">
-                <img src="assets/forward.svg" alt="forward" class="forward hide-arrow">
-                
-            </div>
+            
 
             <div class="outputs">
-                <label>
+                <div class="back">
+                    <img src="assets/back.svg" alt="back" class="back-arrow hide-arrow">
+                </div>
+                <label id="hex">
                     <input type="text"
                     id="hex-output"
                     class="hex"
@@ -41,7 +40,7 @@
                     value="000,000,000">
                     <p>RGB</p>
                 </label>
-                <label>
+                <label id="hsl">
                     <input type="text"
                     id="hsl-output"
                     class="hsl"
@@ -49,6 +48,10 @@
                     value="0,0%,0%">
                     <p>HSL</p>
                 </label>
+
+                <div class="forward">
+                    <img src="assets/forward.svg" alt="forward" class="forward-arrow hide-arrow "> 
+                </div> 
             </div>
             <div class="buttons">
                 <button class="generate">Gerar</button>

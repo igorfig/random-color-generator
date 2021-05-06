@@ -13,8 +13,8 @@ const hslOutput = document.querySelector("#hsl-output");
 
 const generate = document.querySelector(".generate");
 
-const backArrow = document.querySelector(".back");
-const forwardArrow = document.querySelector(".forward");
+const backArrow = document.querySelector(".back-arrow");
+const forwardArrow = document.querySelector(".forward-arrow");
 
 let values = [];
 let previous = [];
